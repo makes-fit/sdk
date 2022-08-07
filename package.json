@@ -1,0 +1,22 @@
+{
+  "name": "makes-fit-sdk",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npm run build-node",
+    "build-node": "tsc",
+    "test": "jest --runInBand",
+    "lint": "eslint src/ test/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.12.31",
+    "@types/query-string": "^6.3.0",
+    "jest": "^25.2.0",
+    "query-string": "^6.11.1",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  }
+}
